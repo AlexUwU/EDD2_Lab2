@@ -17,7 +17,7 @@ namespace Lab2_ArboEnDisco_Gaseosas.Models
 			}
 		}
 
-		public ArbolBAsterisk<Gaseosa> Arbol = new ArbolBAsterisk<Gaseosa>(5, "C://microSQL//arbolesb//" + "gaseosa" + ".arbol", new CreateGaseosa());
+		ArbolBAsterisk<Gaseosa> arbol = new ArbolBAsterisk<Gaseosa>(5, "C://microSQL//arbolesb//" + "gaseosa" + ".arbol", new CreateGaseosa());
 		public List<Gaseosa> data1 = new List<Gaseosa>();
 		public List<Gaseosa> data2 = new List<Gaseosa>();
 	}

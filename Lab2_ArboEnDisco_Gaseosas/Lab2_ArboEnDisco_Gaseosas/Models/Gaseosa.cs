@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Lab2_ArboEnDisco_Gaseosas.Models
 {
-    public class Gaseosa : ITextoTamañoFijo
+    public class Gaseosa : TextoTamañoFIJO
     {
         public string Nombre { get; set; }
         public string Sabor { get; set; }

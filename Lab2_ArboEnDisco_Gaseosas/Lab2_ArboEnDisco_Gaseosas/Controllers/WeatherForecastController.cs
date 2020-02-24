@@ -13,6 +13,7 @@ namespace Lab2_ArboEnDisco_Gaseosas.Controllers
     {
 
         List<Gaseosa> lista = new List<Gaseosa>();
+    
         [HttpGet]
         public IEnumerable<Gaseosa> Get()
         {
